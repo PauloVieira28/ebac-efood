@@ -11,7 +11,7 @@ const HeaderDishesCards = () => (
       </Content>
     </Container>
     <div>
-        <Img src="/src/assets/imagem-de-fundo-HeaderCards.png" alt="Imagem de fundo" />
+        <Img src="/src/assets/imagemFundoHeaderCards.png" alt="Imagem de fundo" />
     </div>
   </>
 
