@@ -1,17 +1,21 @@
 import { Container, Content, Img } from "./styles"
 
+import logo from '../../assets/logo.png'
+import fundo from '../../assets/imagemFundoHeaderCards.png'
+
+
 const HeaderDishesCards = () => (
 
   <>
     <Container>
       <Content>
         <p>Restaurantes</p>
-        <img src="/src/assets/logo.png" alt="logo" />
+        <img src={logo} alt="logo" />
         <p>0 produto(s) no carrinho</p>
       </Content>
     </Container>
     <div>
-        <Img src="/src/assets/imagemFundoHeaderCards.png" alt="Imagem de fundo" />
+        <Img src={fundo} alt="Imagem de fundo" />
     </div>
   </>
 
