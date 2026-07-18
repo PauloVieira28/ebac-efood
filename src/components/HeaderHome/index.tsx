@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 
 
 const HeaderHome = ( ) => (
-  <Headers className="container">
+  <Headers>
     <Img src={logo} alt="logo" />
     <Title>Viva experiências gastronômicas<br />no conforto da sua casa</Title>
   </Headers>

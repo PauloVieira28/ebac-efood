@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/restaurants/:id" element={<MultRestaurants />} />
+        <Route path="*" element={<h2>Página não encontrada</h2>} />
       </Routes>
       <Footer />
     </BrowserRouter>

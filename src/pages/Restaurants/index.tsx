@@ -18,7 +18,7 @@ const Restaurants: Restaurant[] = [
     destaque: true,
     typeDish: 'Japonesa',
     name: 'Hioki Sushi',
-    description: 'O melhor sushi da cidade',
+    description: 'A La Dolce Vita Trattoria leva a autêntica cozinha italiana até você! Desfrute de massas caseiras, pizzas deliciosas e risotos incríveis, tudo no conforto do seu lar. Entrega rápida, pratos bem embalados e sabor inesquecível. Peça já!',
     note: 4.9,
     image: sushi,
     imageLoja: primeiraimagemLojaJaponesa,
@@ -26,32 +26,32 @@ const Restaurants: Restaurant[] = [
       {
       image: pizzaCards,
       title: 'Pizza Marguerita',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Pepperoni',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Marguerita',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Diavola',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Quatro Stagioni',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Frutti di Mare',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
 
   ]
@@ -62,7 +62,7 @@ const Restaurants: Restaurant[] = [
     destaque: true,
     typeDish: 'Italiana',
     name: 'La Dolce Vita Trattoria',
-    description: 'Deliciosa comida italiana',
+    description: 'Peça já o melhor da culinária italiana no conforto da sua casa! Massas artesanais, pizzas saborosas e pratos quentes irresistíveis. Entrega rápida, embalagens cuidadosas e qualidade garantida. Experimente a Itália sem sair do lar com nosso delivery!',
     note: 4.6,
     image: italiana,
     imageLoja: primeiraimagemLojaJaponesa,
@@ -70,32 +70,32 @@ const Restaurants: Restaurant[] = [
             {
       image: pizzaCards,
       title: 'Pizza Marguerita',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Pepperoni',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Marguerita',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Diavola',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Quatro Stagioni',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Frutti di Mare',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     ]
 
@@ -115,32 +115,32 @@ const Restaurants: Restaurant[] = [
             {
       image: pizzaCards,
       title: 'Pizza Marguerita',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Pepperoni',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Marguerita',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Diavola',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Quatro Stagioni',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Frutti di Mare',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     ]
 
@@ -159,32 +159,32 @@ const Restaurants: Restaurant[] = [
             {
       image: pizzaCards,
       title: 'Pizza Marguerita',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Pepperoni',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Marguerita',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Diavola',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Quatro Stagioni',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     {
       image: pizzaCards,
       title: 'Pizza Frutti di Mare',
-      description: 'lorem ipsum dolor sit amagna aliqua.  consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!'
     },
     ]
 

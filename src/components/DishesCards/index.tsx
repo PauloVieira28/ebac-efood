@@ -14,8 +14,8 @@ const DishesCards = ({restaurant}: Props) => (
 
   <Container>
     {restaurant.imageCard.map((item, index) => (
-      <Card key={index}>
-        <Img src={item.image} alt={item.description} />
+      <Card key={`${item.title}-${index}`}>
+        <Img src={item.image} alt={item.title} />
         <Title>{item.title}</Title>
         <Description>{item.description}</Description>
         <Button>Adicionar ao carrinho</Button>

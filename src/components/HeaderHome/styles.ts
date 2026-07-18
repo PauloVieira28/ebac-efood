@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../styles";
 
 export const Headers = styled.div`
-  width: 1224px;
+  width: 100%;
   height: 250px;
   background-color: ${colors.salmon};
 

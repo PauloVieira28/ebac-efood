@@ -4,7 +4,7 @@ export const colors = {
   vibrantSalmon: '#E66767',
   salmon: '#FFEBD9',
   fund: '#FFF8F2',
-  white: '#FFF',
+  white: '#FFFFFF'
 }
 
 export const GlobalCss = createGlobalStyle`
@@ -18,8 +18,6 @@ export const GlobalCss = createGlobalStyle`
 
 body{
   background-color: ${colors.white};
-
-  padding-top: 40px;
 
   .container {
     max-width: 1240px;

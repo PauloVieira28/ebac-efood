@@ -3,12 +3,14 @@ import Restaurants from "../../pages/Restaurants"
 
 import { Link } from "react-router-dom"
 
+import estrela from "../../assets/estrela.png"
+
 
 const Banners = () => (
 
   <Container>
     {Restaurants.map((restaurant) => (
-    <Cards>
+    <Cards key={restaurant.id}>
       <ImageContainer>
         <Img src={restaurant.image} alt={restaurant.typeDish} />
         <Categories>
@@ -26,14 +28,12 @@ const Banners = () => (
 
           <Rating>
             <Notes>{restaurant.note}</Notes>
-            <img src="/src/assets/estrela.png" alt="classificação" />
+            <img src={estrela} alt="classificação" />
           </Rating>
         </Header>
 
         <Text>{restaurant.description}</Text>
-        <Link to={`/restaurants/${restaurant.id}`}>
-          <Button>Saiba mais</Button>
-        </Link>
+        <Button as={Link} to={`/restaurants/${restaurant.id}`}>Saiba mais</Button>
       </CategoriesNotes>
     </Cards>
     ))}
