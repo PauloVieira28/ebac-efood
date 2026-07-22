@@ -13,10 +13,12 @@ export const Headers = styled.div`
 `
 
 export const Img = styled.img`
-  margin-bottom: 16px;
+  margin-bottom: 100px;
+
 `
 
 export const Title = styled.h1`
   text-align: center;
   color: ${colors.vibrantSalmon};
+  margin-top: 64px;
 `
