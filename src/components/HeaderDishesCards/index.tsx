@@ -1,10 +1,14 @@
-import { Container, Content, Img } from "./styles"
+import type Restaurant from "../../models/Restaurant"
+import { Container, Content, Img, ImageWrapper, Name, Type } from "./styles"
 
 import logo from '../../assets/logo.png'
 import fundo from '../../assets/imagemFundoHeaderCards.png'
 
+type Props = {
+  restaurant: Restaurant
+}
 
-const HeaderDishesCards = () => (
+const HeaderDishesCards = ({ restaurant }: Props) => (
 
   <>
     <Container>
@@ -14,9 +18,11 @@ const HeaderDishesCards = () => (
         <p>0 produto(s) no carrinho</p>
       </Content>
     </Container>
-    <div>
+    <ImageWrapper>
         <Img src={fundo} alt="Imagem de fundo" />
-    </div>
+        <Type>{restaurant.typeDish}</Type>
+        <Name>{restaurant.name}</Name>
+    </ImageWrapper>
   </>
 
 )

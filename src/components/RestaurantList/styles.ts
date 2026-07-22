@@ -5,12 +5,12 @@ export const Container = styled.div`
   width: 100%;
   background-color: ${colors.fund};
   margin: 0 auto;
-  padding-top: 32px;
+  padding-top: 128px;
 
   display: grid;
   grid-template-columns: repeat(2, 472px);
   justify-content: center;
-  gap: 32px;
+  gap: 80px;
   color: ${colors.vibrantSalmon};
   font-size: 14px;
 `

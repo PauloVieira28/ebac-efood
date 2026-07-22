@@ -5,10 +5,11 @@ import { colors } from "../../styles";
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 320px);
-  gap: 24px;
+  gap: 32px;
   justify-content: center;
-  margin: 40px 0;
-  width: 100%;
+  margin: 40px auto;
+  width: 1024px;
+  height: 708px;
 `
 
 export const Card = styled.div`
@@ -16,7 +17,7 @@ export const Card = styled.div`
   height: 338px;
   display: flex;
   flex-direction: column;
-  padding: 12px;
+  padding: 8px;
   background-color: ${colors.vibrantSalmon};
   overflow: hidden;
 

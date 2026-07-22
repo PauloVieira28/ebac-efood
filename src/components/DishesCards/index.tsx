@@ -10,7 +10,7 @@ type Props = {
 const DishesCards = ({restaurant}: Props) => (
 
 <>
-  <HeaderDishesCards />
+  <HeaderDishesCards restaurant={restaurant} />
 
   <Container>
     {restaurant.imageCard.map((item, index) => (

@@ -3,7 +3,7 @@ import { colors } from "../../styles";
 
 export const Headers = styled.div`
   width: 100%;
-  height: 250px;
+  height: 384px;
   background-color: ${colors.salmon};
 
   display: flex;
